@@ -4,6 +4,8 @@ Identify the type of attack that may have caused this network interruption and e
 
 ### Wireshark TCP_HTTP log
 
+![image](https://raw.githubusercontent.com/mmat62/Wireshark-TCP_HTTP-log-Analyze-Network-Attacks/refs/heads/main/Wireshark-TCP_HTTP-log.png)
+
 ## Section 1: Identify the type of attack that may have caused this network interruption
 
 One potential explanation for the website’s connection timeout error message is a DoS attack. The logs show that the web server stops responding after it is overloaded with SYN packet requests. This event could be a type of DoS attack called SYN flooding.
